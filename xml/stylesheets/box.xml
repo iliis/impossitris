@@ -1,0 +1,6 @@
+<?xml version="1.0" ?>
+<style>
+	<image path="images/border_white_filled.png">
+		<NinePatch left="12" top="12" bottom="12" right="12" />
+	</image>
+</style>

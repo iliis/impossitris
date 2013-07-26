@@ -164,7 +164,13 @@
 		<Unit filename="anathea/tools/vectorgraph.hpp" />
 		<Unit filename="anathea/tools/vectormath.cpp" />
 		<Unit filename="anathea/tools/vectormath.hpp" />
+		<Unit filename="grid.cpp" />
+		<Unit filename="grid.h" />
+		<Unit filename="impossitris.cpp" />
+		<Unit filename="impossitris.h" />
 		<Unit filename="main.cpp" />
+		<Unit filename="piece.cpp" />
+		<Unit filename="piece.h" />
 		<Extensions>
 			<code_completion />
 			<envvars />

@@ -7,7 +7,7 @@
 
 using namespace std;
 
-
+#include "impossitris.h"
 
 
 class TestApp : public Kernel
@@ -32,13 +32,10 @@ public:
 		this->guiMgr->addWidget(wclock);
 
 
-		shared_ptr<WImage> block = guiMgr->createWidget<WImage>("block");
-
-		block->set(readXML("xml/stylesheets/box.xml"));
-		block->width  = 80;
-		block->height = 80;
-		block->getImage().color = RED;
-		this->guiMgr->addWidget(block);
+		shared_ptr<Impossitris> itris = guiMgr->createWidget<Impossitris>("Impossitris");
+		itris->rel_x = 10;
+        itris->rel_y = 10;
+		this->guiMgr->addWidget(itris);
 	}
 
 	void calcFrame(TimeVal delta)
